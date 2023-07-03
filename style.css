@@ -17,9 +17,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .logo{
     margin-right: auto;
+    cursor: pointer;
 }
 
 .container{
@@ -27,10 +29,13 @@ body{
     padding: 50px;
     background-color: #1F2937;
     color: white;
+    justify-content: center;
 }
 .left-container{
     width: 500px;
     padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
 }
 h1{
     font-size: 45px;
@@ -43,13 +48,16 @@ button {
     background-color: #3882F6;
     border: none;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 10px;
+    margin-left: 0px;
     border-radius: 12px;
+    cursor: pointer;
+    width: 150px;
   }
 
 .box{
@@ -92,4 +100,45 @@ em{
 .quote div{
     display: flex;
     justify-content: end;
+}
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+.callToAction{
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    display: flex;
+}
+#btn{
+    border: 2px white;
+    padding: 10px 28px;
+    cursor: pointer;
+    background-color: #3882F6;
+    border-style: solid;
+}
+h4{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: start;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+.footer{
+    background-color: #1F2937;
+    padding: 30px;
+}
+.txt{
+    color: white;
+    display: flex;
+    justify-content: center;
 }
